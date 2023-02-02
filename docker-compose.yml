@@ -3,7 +3,7 @@ services:
   web:
     image: 'gitlab/gitlab-ee:latest'
     restart: always
-    hostname: 'gitlab.example.com'
+    hostname: 'gitlab'
     environment:
       GITLAB_OMNIBUS_CONFIG: |
         external_url 'http://15.164.90.198'
